@@ -1,0 +1,23 @@
+source_db:
+  "cosmos_database_name" : "datalake"
+  "scada": ["scada_2018","scada_2019","scada_2020","scada_2021","scada_2022","scada_2023"]
+  "lims": ['lims']
+  "forecast_outputs": 'forecast_outputs_prod'
+  'forecast_outputs_hist': 'forecast_outputs_hist'
+
+destination_db:
+  "cosmos_database_name" : "datalake"
+  "ss_scada_clean" : "ss_scada_clean"
+  "ss_lims_clean" : "ss_lims_clean"
+  "ss_frac_clean" : "ss_frac_clean"
+  "ss_results" : "ss_results"
+  "stats": "stats"
+  "form_manual_settings": "form_manual_settings"
+  "form_autocal_settings": "form_autocal_settings2"
+  "ss_results" : "ss_results"
+  'forecast_current_ops' : 'forecast_current_ops'
+
+blob:
+  "xml_container_name": "xml"
+  "pkl_container_name": "simhistory"
+    

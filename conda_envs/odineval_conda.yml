@@ -1,0 +1,19 @@
+name: odin_eval
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - pandas
+    - python-dotenv
+    - python-dateutil
+    - pymongo
+    - azureml-core
+    - openpyxl
+    - holidays
+    - matplotlib
+    - ipykernel
+    - scikit-learn
+    - xgboost
+    - azure-storage-blob
+    - azureml-fsspec
+    - mltable
