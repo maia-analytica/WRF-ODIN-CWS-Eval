@@ -60,7 +60,6 @@ class DB:
             blob_data = blob.download_blob()
             blob_data.readinto(my_blob)
             
-
     def load_yaml(self, db_yaml):
         with open(db_yaml, "r") as stream:  # open the file
             try:
@@ -68,7 +67,6 @@ class DB:
             except yaml.YAMLError as exc:  # print the exception if error
                 print(exc)
         return yaml_dict  # return the contents of the file
-
 
     def query_lims_tag_and_range(self, time_range, tags):
         a_filter = {"_ts":{"$gte":time_range[0], "$lte":time_range[1]},

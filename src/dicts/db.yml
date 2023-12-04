@@ -14,7 +14,6 @@ destination_db:
   "stats": "stats"
   "form_manual_settings": "form_manual_settings"
   "form_autocal_settings": "form_autocal_settings2"
-  "ss_results" : "ss_results"
   'forecast_current_ops' : 'forecast_current_ops'
 
 blob:
