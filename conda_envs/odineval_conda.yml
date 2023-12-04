@@ -17,3 +17,5 @@ dependencies:
     - azure-storage-blob
     - azureml-fsspec
     - mltable
+    - markdown2
+    - pdfkit
